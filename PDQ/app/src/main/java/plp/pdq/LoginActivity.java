@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, HomePage.class);
+                Intent intent = new Intent(LoginActivity.this, NavMenu.class);
                 startActivity(intent);
             }
         });
@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
         btnCreateAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(LoginActivity.this, HomePage.class);
+                Intent intent = new Intent(LoginActivity.this, NavMenu.class);
                 startActivity(intent);
             }
         });
