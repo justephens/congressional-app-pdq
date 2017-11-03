@@ -8,7 +8,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".NavMenu"
             android:label="Home"
@@ -19,9 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".CreateAccountActivity"></activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".pdqMenu"
+            android:label="@string/title_activity_pdq_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
