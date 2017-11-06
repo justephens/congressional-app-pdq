@@ -8,9 +8,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
-            android:name=".NavMenu"
+            android:name=".LoginActivity"
             android:label="Home"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,9 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".CreateAccountActivity"></activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".NavMenu" />
+        <activity android:name=".RegisterActivity"></activity>
     </application>
 
 </manifest>
