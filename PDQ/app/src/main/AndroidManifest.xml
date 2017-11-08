@@ -23,7 +23,7 @@
         <activity
             android:name=".pdqMenu"
             android:label="@string/title_activity_pdq_menu"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
