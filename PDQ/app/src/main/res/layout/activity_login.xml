@@ -72,20 +72,18 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="464dp"
-        android:layout_height="517dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
+        android:id="@+id/imageView"
+        android:layout_width="198dp"
+        android:layout_height="211dp"
+        app:srcCompat="@drawable/pdq_logo"
         android:layout_marginTop="8dp"
-        android:background="@drawable/ic_menu_send"
-        app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textPassword"
-        app:layout_constraintVertical_bias="0.437"
-        app:srcCompat="@drawable/pdqlogo" />
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintVertical_bias="0.466"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
