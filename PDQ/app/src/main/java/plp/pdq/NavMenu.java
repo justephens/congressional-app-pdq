@@ -87,7 +87,7 @@ public class NavMenu extends AppCompatActivity
         } else if (id == R.id.navmenu_catering) {
 
         } else if (id == R.id.navmenu_locations) {
-
+            startActivity(new Intent(NavMenu.this, LocationFinder.class));
         } else if (id == R.id.navmenu_discounts) {
 
         } else if (id == R.id.navmenu_profile) {
