@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class SettingsActivity extends AppCompatActivity {
 
-    Button btnSignOut, btnPersonalInfo;
+    Button btnSignOut, btnPersonalInfo, btnPayOpt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         btnSignOut = (Button) findViewById(R.id.buttonSignOut);
         btnPersonalInfo = (Button) findViewById(R.id.buttonPersonInfo);
+        btnPayOpt = (Button) findViewById(R.id.buttonPaymentOpt);
 
         btnSignOut.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,5 +35,11 @@ public class SettingsActivity extends AppCompatActivity {
             }
         });
 
+        btnPayOpt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity (new Intent(SettingsActivity.this, PaymentActivity.class));
+            }
+        });
     }
 }
