@@ -93,6 +93,7 @@ public class NavMenu extends AppCompatActivity
         } else if (id == R.id.navmenu_profile) {
 
         } else if (id == R.id.navmenu_settings) {
+            startActivity(new Intent(NavMenu.this, SettingsActivity.class));
 
         }
 

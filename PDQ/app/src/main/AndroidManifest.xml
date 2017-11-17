@@ -27,10 +27,10 @@
         </activity>
         <activity android:name=".NavMenu" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".SettingsActivity" />
         <activity
             android:name=".LocationFinder"
-            android:label="@string/title_activity_location_finder"></activity>
+            android:label="@string/title_activity_location_finder" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -42,7 +42,8 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
->>>>>>> origin/master
+        >>>>>>> origin/master
+        <activity android:name=".PersonalInfoActivity"></activity>
     </application>
 
 </manifest>
