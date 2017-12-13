@@ -1,5 +1,6 @@
 package plp.pdq;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -27,8 +28,9 @@ public class NavMenu extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                startActivity(new Intent(NavMenu.this, SettingsActivity.class));
+                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                //        .setAction("Action", null).show();
             }
         });
 
@@ -85,12 +87,22 @@ public class NavMenu extends AppCompatActivity
         } else if (id == R.id.navmenu_catering) {
 
         } else if (id == R.id.navmenu_locations) {
+<<<<<<< HEAD
 
         } else if (id == R.id.navmenu_discounts) {
 
         } else if (id == R.id.navmenu_profile) {
 
         } else if (id == R.id.navmenu_settings) {
+=======
+            startActivity(new Intent(NavMenu.this, LocationFinder.class));
+        } else if (id == R.id.navmenu_discounts) {
+
+        } else if (id == R.id.navmenu_profile) {
+
+        } else if (id == R.id.navmenu_settings) {
+            startActivity(new Intent(NavMenu.this, SettingsActivity.class));
+>>>>>>> master
 
         }
 
