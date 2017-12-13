@@ -26,10 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".pdqMenu"
-            android:label="@string/title_activity_pdq_menu"
-            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".NavMenu"></activity>
         <activity android:name=".RegisterActivity"></activity>
         <activity
